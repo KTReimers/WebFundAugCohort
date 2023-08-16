@@ -15,6 +15,7 @@ function disappear(element){
 function reappear(){
     var btn = document.querySelector('#timeBtn')
     btn.style.display = "inline"
+    btn.style.backgroundColor ="green"
 }
 
 
