@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    width:80%;
+    margin:0px auto;
+    padding:20px;
+    border:solid 2px red;
+}
+
+img{
+    width:100px;
+    border-radius:25px;
+}
+
+.navbar{
+    border-bottom:solid 2px black;
+    justify-content: space-between;
+}
+
+.navbar, .nav-left{
+    display:flex;
+    align-items: center;
+}
+
+.nav-left{
+    justify-content: space-between;
+    width:35%;
+}
+
+.nav-right{
+    width: 30%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.page-content{
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+}
+
+.main-content, .side-content{
+    border:2px solid green;
+    height:400px;
+    text-align: center;
+}
+
+.main-content{
+    width:50%;
+}
+
+.side-content{
+    width:30%;
+}

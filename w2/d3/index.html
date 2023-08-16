@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billy's Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Welcome to Billy's Hero Shop!</h1>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li>
+                        <img src="./images/shopping-cart-icon.jpg" alt="shopping cart icon" class="icon">
+                        <span id="cart">0</span>
+                    </li>
+                </ul>
+                <form action="#" onsubmit="searchBar(event)">
+                    <input type="text" id="search" placeholder="search">
+                </form>
+            </div>
+        </div>
+        <div class="popUp">
+            <h5>Heroic Deal!</h5>
+            <p>Save 20% with code: <br>
+            enchiridion
+            </p>
+            <button class="popUpBtn border" onclick="removeAdd()">No</button>
+            <button class="popUpBtn" onclick="removeAdd()">Yes</button>
+        </div>
+        <div class="content">
+            <div class="main">
+                <h2>Featured Product</h2>
+                <img src="./images/golden_sword_of_battle.jpg" alt="golden sword of battle" class="scarlet">
+                <h3>Golden Sword Of Battle! (AKA "Scarlet")</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi officia rerum velit totam suscipit voluptatem mollitia blanditiis neque consequuntur vel delectus magni provident magnam labore, dolores iusto voluptas non.</p>
+                <button class="scarletBtn" onclick="increment()">Add To Cart</button>
+            </div>
+            <div class="sub-content">
+                <h2 class="subTitle">Other Heroic Products:</h2>
+                <div class="products">
+                    <div class="sword">
+                        <img src="./images/root_sword.jpg" alt="root sword" class="swordImg">
+                        <h4>Root Sword</h4>
+                        <button onclick="increment()">Add To Cart</button>
+                    </div>
+                    <div class="sword">
+                        <img src="./images/demon_blood_sword.jpg" alt="demon blood sword" class="swordImg">
+                        <h4>Demon blood Sword</h4>
+                        <button onclick="increment()">Add To Cart</button>
+                    </div>
+                    <div class="sword">
+                        <img src="./images/finn_sword.jpg" alt="finn sword" class="swordImg">
+                        <h4>Finn Sword</h4>
+                        <button onclick="increment()">Add To Cart</button>
+                    </div>
+                    <div class="sword">
+                        <img src="./images/grass_sword.jpg" alt="grass sword" class="swordImg">
+                        <h4>Grass Sword</h4>
+                        <button onclick="increment()">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer">Copyright @ Billy the Hero 2023</p>
+    </div>
+</body>
+</html>

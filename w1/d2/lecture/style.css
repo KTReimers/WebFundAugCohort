@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#container{
+    width:80%;
+    margin:0px auto;
+}
+
+h1{
+    color:aqua;
+    background-color: rebeccapurple;
+    margin:20px;
+    padding:20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.blueText{
+    color:blue;
+}
+
+.red, .green{
+    width:300px;
+    height:300px;
+    display:inline-block;
+    vertical-align: top;
+}
+.red{
+    border:solid 2px red;
+}
+.green{
+    border:solid 2px green;
+}
+.yellow{
+    background-color: yellow;
+    width:100px;
+    height:100px;
+    display:inline-block
+}
+
+/* inline
+block
+inline-block */

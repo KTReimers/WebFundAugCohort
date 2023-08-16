@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.nav{
+    border:2px solid black;
+    justify-content: space-between;
+    background-color: #2B78E4;
+    padding:15px;
+}
+.nav, .nav-right{
+    display:flex;
+    align-items: center;
+}
+.nav-right{
+    display:flex;
+    width:50%;
+    justify-content: space-between;
+}
+
+ul{
+    display:flex;
+    align-items: center;
+    width:70%;
+    justify-content: space-around;
+}
+li{
+    list-style:none;
+    border-right:1px solid black;
+    padding-right:10px;
+}
+li a {
+    color:white;
+}
+li:nth-child(4), li:last-child{
+    border:none;
+}
+
+
+.icon{
+    width:25px;
+}
+
+#search{
+    width:150px;
+    border-radius:20px;
+}
+
+.content{
+    width:60%;
+    margin:0px auto;
+    border: 2px solid black;
+    padding:15px;
+}
+.main{
+    border-bottom: 2px solid black;
+}
+.scarlet{
+    width:100%;
+}
+button{
+    background-color: #6AA84F;
+    padding:5px;
+    color:white;
+    box-shadow:3px 6px 5px -4px #000000;
+    margin:5px;
+}
+.scarletBtn{
+    margin:10px 0px;
+}
+h3{
+    margin-top: 15px;
+}
+
+.products{
+    display:flex;
+    justify-content: space-between;
+}
+
+.sword{
+    border:2px solid black;
+    text-align: center;
+    width:15%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.swordImg{
+    height:200px;
+}
+.subTitle{
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: #2B78E4;
+    color: white;
+    border:2px solid black;
+    text-align: center;
+    padding:20px;
+}
+
+.popUp{
+    background-color: grey;
+    border:1px solid black;
+    width:200px;
+    text-align: center;
+    border-radius: 20px;
+    margin:0px auto;
+    display:none;
+}
+
+.popUp p{
+    border-bottom: 1px solid black;
+}
+.popUpBtn{
+    background-color: grey;
+    border:none;
+    box-shadow: none;
+    color:black;
+}
+.border{
+    border-right:1px solid black;
+    padding-right:20px;
+}
