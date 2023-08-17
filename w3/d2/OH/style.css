@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    width:80%;
+    margin:0px auto;
+}
+
+.row{
+    border:2px solid black;
+    display:flex;
+    /* height:150px; */
+}
+
+.col1{
+    background-color: blue;
+    width:100px;
+    height:100px;
+    /* display:inline-block; */
+}
+.col2{
+    background-color: green;
+    width:150px;
+    height:200px;
+    /* display:inline-block; */
+}
+.col3{
+    background-color: red;
+    width: 150px;
+    height:300px;
+    /* display:inline-block; */
+}
