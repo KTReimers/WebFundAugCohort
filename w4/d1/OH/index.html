@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journal</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>My Journal</h1>
-        <form action="">
+        <form action="" onsubmit="captureEntry(event)">
             <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button onclick="">Add Entry</button>
+            <button>Add Entry</button>
         </form>
         <div id="entries"></div>
     </div>
